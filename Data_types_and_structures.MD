@@ -4,16 +4,8 @@ Python contains various built-in data types. These include
 ### commonly string methods 
 || Syntax              | Description                   |
 | -------------------- | ----------------------------  |                                    
-|  s.capitalize        | Returns a string with only the first
-character capitalized                             |
-| s.count(substring
-,[start,end])                     |                               |
-|                      |                              |
-|                      |                               |
-|                      |                               |
-|                      |                               |
-|                      |                               |
-|                      |                               |
+|  s.capitalize | Returns a string with only the first characte capitalized |                            |
+
 - mapping type (dict)
 - set
 
