@@ -10,6 +10,22 @@
 | string.replace(old,new[maxreplace]) | Replaces old substring with a new substring.|
 | s.strip([characters])  | Removes whitespace or optional characters |
 
+Strings, like all sequence types, support indexing and slicing.We can retrieve any character from a string by using its index
+```python
+name = "New York"
+for i in enumerate (name[0 :6]) :
+    print (i)
+```
+Output
+```shell
+(0, 'N')
+(1, 'e')
+(2, 'w')
+(3, ' ')
+(4, 'Y')
+(5, 'o')
+```
+
 
 - Mapping type (dict)
 - Set
