@@ -70,3 +70,42 @@ Output
 - ## Mapping type (dict)
 - ## Set
 
+
+### Functions as first class Objects
+Higher order functions : are functions that take other functions as arguments, or that return functions
+Python 3 has two built-in higher order functions
+```python
+filter()
+map()
+```
+The `map()` function provides an easy way to transform each item into an iterable object.
+```python
+numbers =[1,4,5,9,0,45,67,12]
+for item in map(lambda x : x**2, numbers):
+    print (item)
+```
+Output:
+```shell
+1
+16
+25
+81
+0
+2025
+4489
+144
+```
+
+The `filter()` used to filter items in a list:
+```python
+numbers =[1,4,5,9,0,45,67,12]
+for item in filter(lambda x : x%2==0, numbers):
+    print (item)
+```
+Output:
+```shell
+4
+0
+12
+```
+
