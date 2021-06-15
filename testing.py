@@ -3,4 +3,4 @@ for i in enumerate (name[0 :6]) :
     print (i)
 
 
-print(name + "City")
+print(name + " City")
