@@ -25,6 +25,7 @@ Output
 (4, 'Y')
 (5, 'o')
 ```
+In Python, a string is immutable. You cannot overwrite the values of immutable objects. However, you can assign the variable again.
 
 
 - Mapping type (dict)
