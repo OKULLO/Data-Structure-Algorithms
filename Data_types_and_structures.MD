@@ -54,7 +54,19 @@ Name:Ruth, Age : 60
 Name:Max, Age : 90
 Name:Joy, Age : 45
 ```
+#### List comprehensions
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+```python
 
+name = "New York City".split()
+print (name)
+print ([i.lower() for i in name])
+```
+Output
+```shell
+['New', 'York', 'City']
+['new', 'york', 'city']
+```
 - ## Mapping type (dict)
 - ## Set
 
