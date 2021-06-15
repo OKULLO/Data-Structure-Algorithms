@@ -33,7 +33,15 @@ Output
 ```shell
 New York City
 ```
-
+#### Common List methods 
+List  can store any number of different data types. They are simple representations of objects and are indexed by integers
+starting from zero
+| Syntax              | Description                   |
+| -------------------- | ----------------------------  | 
+| li.append(x) | Appends element x at the end of list |
+|li.count(x) | Returns the count of the occurrence of x in list |
+| li.pop(i) |  Returns the element and Removes i  from the list, note i is index of object |
+| li.sort(key,[reverse]) | Sorts list with optional key and reverses it.|
 - ## Mapping type (dict)
 - ## Set
 
