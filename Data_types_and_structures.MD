@@ -42,6 +42,19 @@ starting from zero
 |li.count(x) | Returns the count of the occurrence of x in list |
 | li.pop(i) |  Returns the element and Removes i  from the list, note i is index of object |
 | li.sort(key,[reverse]) | Sorts list with optional key and reverses it.|
+
+List can contain other nested list items
+```python
+for user_info in user_data:
+    print (f"Name:{user_info[0]}, Age : {user_info[1]}")
+```
+Output:
+```shell
+Name:Ruth, Age : 60
+Name:Max, Age : 90
+Name:Joy, Age : 45
+```
+
 - ## Mapping type (dict)
 - ## Set
 
