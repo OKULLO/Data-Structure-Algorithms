@@ -109,3 +109,44 @@ Output:
 12
 ```
 
+
+## Recursion
+Recursion is a technique used to solve computer problems by creating a function that calls itself until your program achieves the desired result.
+```python
+
+def recurinter(low, high):
+    while low <= high:
+        print(low)
+        recurinter(low+1, high)
+
+print(recurinter(1,4))
+```
+Outcome:
+```shell
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4....
+```
+```python
+print(recurinter(67,4))
+```
+Outcome
+```shell
+None
+``
