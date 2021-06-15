@@ -1,6 +1,6 @@
-### Python contains various built-in data types. These include 
-- Numeric types (int, float, complex, bool)
-- Sequence types (str, list, tuple, range)
+# Python contains various built-in data types. These include 
+- ## Numeric types (int, float, complex, bool)
+- ## Sequence types (str, list, tuple, range)
 #### Common string methods 
 | Syntax              | Description                   |
 | -------------------- | ----------------------------  |                                    
@@ -34,6 +34,6 @@ Output
 New York City
 ```
 
-- Mapping type (dict)
-- Set
+- ## Mapping type (dict)
+- ## Set
 
