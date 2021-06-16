@@ -30,6 +30,7 @@ Let me explain with a simple example, you want to carry out a task that requires
 |        | 1 r 0             |
 
 log<sub>2</sub> 32<sup> = log<sub><del>2</del></sub> <del>2</del><sup>5</sup> 
+
 So log<sup>32</sup> is equal to 5
 
 
