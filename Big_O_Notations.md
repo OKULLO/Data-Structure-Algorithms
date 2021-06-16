@@ -16,7 +16,7 @@ fastest to slowest:
 | O(log n)| Binary search|
 |O n |Simple search known as linear time|
 |O (n * log n) | Quicksort (fast sorting)|
-|O n<><sup>2</sup>|selection sort (slow sorting)|
+|O n<sup>2</sup>|selection sort (slow sorting)|
 |O (n !) |traveling salesperson (the slowest)|
 
 
