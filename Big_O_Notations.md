@@ -29,11 +29,11 @@ Let me explain with a simple example, you want to carry out a task that requires
 | 2      | 2 r 0            |
 |        | 1 r 0             |
 
-log<sub>2</sub> 32<sup> = log<sub><del>2</del></sub> <del>2</del><sup>5</sup>
+log<sub>2</sub> 32<sup> = log<sub><del>2</del></sub> <del>2</del><sup>5</sup> = 5
 
 
 |Number of steps | O(log n) |O n |O (n * log n) | O n<sup>2</sup> | O (n !) |
 | ----------- | ----------- |----------- | ----------- |----------- | ----------- |
-|32|5 |    32 |32 * 5 = 160| 32<sup>2</sup> = 1024 |  32! = 32 * 32 * 31 * 30 * ...1 = 2.631308369 <sup>E+35 </sup> |
+|32|5 |    32 |32 * 5 = 160| 32<sup>2</sup> = 1024 |  32! = 32 * 32 * 31 * 30 * ...1 = 2.631308369 <sup>E+35 </sup> 🤯|
 
    
