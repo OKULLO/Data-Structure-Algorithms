@@ -13,11 +13,11 @@ Here are five Big O run times that you’ll encounter a lot, sorted from
 fastest to slowest:
 |    O notatation | Explantion |
 | ----------- | ----------- |
-| O<sub>(log n)</sub>| Binary search|
-|O<sub> n <sub>|Simple search known as linear time|
-|O<sub> (n * log n) <sub>| Quicksort (fast sorting)|
-|O<sub> n<sub><sup>2</sup>|selection sort (slow sorting)|
-|O<sub> (n !) |traveling salesperson (the slowest)|
+| O(log n)| Binary search|
+|O n |Simple search known as linear time|
+|O (n * log n) | Quicksort (fast sorting)|
+|O n<><sup>2</sup>|selection sort (slow sorting)|
+|O (n !) |traveling salesperson (the slowest)|
 
 
    
