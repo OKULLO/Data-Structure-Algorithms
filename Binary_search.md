@@ -9,6 +9,25 @@ With binary search, you guess the middle number and eliminate half the
 remaining numbers every time.
 Binary search compares the target value to the middle element of the array
 
+In general, for any list of n, binary search will take log<sub>2</sub> <sup>n</sup> steps to run 
+To search through an list that contains 500 items
+
+|             | Number |
+| ----------- | ----------- |
+| 2      | 500 r 0      |
+| 2      | 125 r 0       |
+| 2      | 62 r 1       |
+| 2      | 31 r 0        |
+| 2      | 15 r 1      |
+| 2      | 7 r 1        |
+| 2      | 3 r 1       |
+| 2      | 1 r 1        |
+| 2      | 0 r 1        |
+
+which would give us 
+
+log<sub>2</sub> <sup>2</sup><sub>9/sub>, which is 9 steps it would require for binary search
+
 ```python
 class BinarySearch():
 
@@ -56,5 +75,3 @@ printing..1
 printing..-1
 None
 ```
-In general, for any list of n, binary search will take log<sub>2</sub> <sup>n</sup> steps to run in the worst case,
-whereas simple search will take n steps.
