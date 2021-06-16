@@ -23,12 +23,12 @@ To search through a list that contains 500 items
 | 2      | 15 r 1      |
 | 2      | 7 r 1        |
 | 2      | 3 r 1       |
-| 2      | 1 r 1        |
-| 2      | 0 r 1        |
+|        | 1 r 1        |
+
 
 which would give us 
 
-log<sub>2</sub> 2<sup>9</sup>, which is 9 steps it would require for binary search
+log<sub>2</sub> 2<sup>7</sup>, which is 7 steps it would require for binary search
 
 ```python
 class BinarySearch():
