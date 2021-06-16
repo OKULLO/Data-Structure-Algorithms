@@ -26,7 +26,7 @@ To search through an list that contains 500 items
 
 which would give us 
 
-log<sub>2</sub> <sup>2</sup><sup>9</sup>, which is 9 steps it would require for binary search
+log<sub>2</sub> 2<sup>9</sup>, which is 9 steps it would require for binary search
 
 ```python
 class BinarySearch():
