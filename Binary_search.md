@@ -9,8 +9,9 @@ With binary search, you guess the middle number and eliminate half the
 remaining numbers every time.
 Binary search compares the target value to the middle element of the array
 
-In general, for any list of n, binary search will take log<sub>2</sub> <sup>n</sup> steps to run 
-To search through an list that contains 500 items
+In general, for any list of n, binary search will take log<sub>2</sub> <sup>n</sup> steps to run.
+
+To search through a list that contains 500 items
 
 |             | Number |
 | ----------- | ----------- |
