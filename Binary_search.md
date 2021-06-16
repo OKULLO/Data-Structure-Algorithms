@@ -56,5 +56,5 @@ printing..1
 printing..-1
 None
 ```
-In general, for any list of n, binary search will take log<sub>2</sub> n steps to run in the worst case,
+In general, for any list of n, binary search will take log<sub>2</sub> <sup>n</sup> steps to run in the worst case,
 whereas simple search will take n steps.
