@@ -13,12 +13,15 @@ def fun(a, b):
         return fun(a * a, b//2)
      
     return fun(a * a, b//2) + a #recursive case
+
+print(fun(4, 7))
+print(fun(4, 8))
  
 ```
 Output
 ```shell
- 
-print(fun(4, 7))
-print(fun(4, 8))
+276
+65536
+
 ```
  
