@@ -6,16 +6,16 @@ Every recursive function has two parts:
 
 ```python
 
-def fun(a, b):
+def recursive(a, b):
     if (b == 0):  #base case
         return 0
     if (b % 2 == 0):
-        return fun(a * a, b//2)
+        return recursive(a * a, b//2)
      
-    return fun(a * a, b//2) + a #recursive case
+    return recursive(a * a, b//2) + a #recursive case
 
-print(fun(4, 7))
-print(fun(4, 8))
+print(recursive(4, 7))
+print(recursive(4, 8))
  
 ```
 Output
